@@ -53,7 +53,9 @@ function ActionButtons({
       <button className="cursor-pointer bg-primary text-on-primary px-8 py-4 rounded-lg font-bold editorial-shadow hover:opacity-90 transition-all">
         Request a Call Back
       </button>
-      <button className={`cursor-pointer px-8 py-4 rounded-lg font-bold transition-all ${knowMoreTone}`}>
+      <button
+        className={`cursor-pointer px-8 py-4 rounded-lg font-bold transition-all ${knowMoreTone}`}
+      >
         Know More
       </button>
     </div>
@@ -297,4 +299,3 @@ export function ServicesSection() {
     </section>
   );
 }
-
